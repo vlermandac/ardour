@@ -36,7 +36,7 @@
 
 ## Usage
 
-1. Identify the path for your Ardour themes folder. In linux it's usually on '~/.config/Ardour/Contents/Resources/themes', in macos it's on '/Applications/Ardour8.app/Contents/Resources/themes/'.
+1. Identify the path for your Ardour themes folder. On linux it's usually in '~/.config/Ardour/Contents/Resources/themes/', on macos it's in '/Applications/Ardour8.app/Contents/Resources/themes/'.
 2. Download the flavour files to the Ardour themes folder:
 ```bash
 curl -LO --output-dir path/to/ardour/themes https://github.com/catppuccin/ardour/raw/main/catppuccin_latte-ardour.colors
@@ -57,7 +57,7 @@ curl -LO --output-dir path/to/ardour/themes https://github.com/catppuccin/ardour
 ## 🙋 FAQ
 
 - Q: **_"How can I change the colors for an specific button/text/component?"_**\
-  A: You can modify what color is used by any of the GUI components in the .color files. Nonetheless, it is easier to do that inside Ardour, in Preferences > Appearance > Colors > Items, where the full list of objects is presented.
+  A: You can modify what color is used by any of the GUI components in the .colors files. Nonetheless, it is easier to do that inside Ardour, in Preferences > Appearance > Colors > Items, where the full list of objects is presented.
 
 ## 💝 Thanks to
 
