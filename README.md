@@ -36,15 +36,28 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
+1. Identify the path for your Ardour themes folder. In linux it's usually on '~/.config/Ardour/Contents/Resources/themes', in macos it's on '/Applications/Ardour8.app/Contents/Resources/themes/'.
+2. Download the flavour files to the Ardour themes folder:
+```bash
+curl -LO --output-dir path/to/ardour/themes https://github.com/catppuccin/ardour/raw/main/catppuccin_latte-ardour.colors
+```
+```bash
+curl -LO --output-dir path/to/ardour/themes https://github.com/catppuccin/ardour/raw/main/catppuccin_frappe-ardour.colors
+```
+```bash
+curl -LO --output-dir path/to/ardour/themes https://github.com/catppuccin/ardour/raw/main/catppuccin_macchiato-ardour.colors
+```
+```bash
+curl -LO --output-dir path/to/ardour/themes https://github.com/catppuccin/ardour/raw/main/catppuccin_mocha-ardour.colors
+```
+3. Open the app and go to **Preferences** > **Appearance** > **Colors**.
+4. Select the desired flavor from the **Color Theme** list.
 
 <!-- The FAQ section is optional. Remove if needed.-->
 ## 🙋 FAQ
 
-- Q: **_"How can I do X?"_**\
-  A: ...
+- Q: **_"How can I change the colors for an specific button/text/component?"_**\
+  A: You can modify what color is used by any of the GUI components in the .color files. Nonetheless, it is easier to do that inside Ardour, in Preferences > Appearance > Colors > Items, where the full list of objects is presented.
 
 ## 💝 Thanks to
 
